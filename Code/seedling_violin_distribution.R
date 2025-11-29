@@ -1,5 +1,5 @@
 # ===============================================
-# Script: seedlings_per_severity.R
+# Script: seedling_violin_distribution.R
 # Purpose: Load cleaned data and create a violin 
 #         distribution of seedling counts per SBS
 # Author: Helena Kroleski

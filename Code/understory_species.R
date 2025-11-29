@@ -1,5 +1,5 @@
 # ===============================================
-# Script: seedlings_per_severity.R
+# Script: understory_species.R
 # Purpose: Load understory species data and create a
 #          bar plot of top species (>5 freq)
 # Author: Helena Kroleski

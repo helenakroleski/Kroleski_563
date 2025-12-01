@@ -25,12 +25,12 @@ LHData <- read_excel("Data/fresh_n_clean_LH_Data.xlsx")
 * View(LHData)
 
 ## 4. You are now ready to code. 
-###### For each figure you are interested in reproducing, there is a separate code file with the exact same naming convention. You should be able to copy/paste the code into R and producce the figure. Each code should have comments explaining its function.
+###### For each figure you are interested in reproducing, there is a separate code file with the exact same naming convention. You should be able to copy/paste the code into R and produce the figure. Each code should have comments explaining its function.
 * Ensure that when loading data in R you have the correct path as it may differ from what is given.
-* Ensure that you have variables named the same as the given code, or it may not work.
-* Always double-check that you have all needed packaged installed and loaded.
+* Ensure that your variables are named the same as the given code, or it may not work.
+* Always double-check that you have all needed packages installed and loaded.
 
-  ###### Direct questions to:
+  ### Direct questions to:
   Helena Kroleski
   kroleskh@oregonstate.edu
   Oregon State University: Forest, Engineering, and Resource Management

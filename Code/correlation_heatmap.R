@@ -18,7 +18,7 @@ library(readxl)      # For reading excel files
 library(viridis)     # For colorblind-friendly palettes
 library(corrplot).   # For correlation matrix
 
-# Load cleaned data located in Kroleski_GEOG563 Data folder
+# Load cleaned data
 LHData <- read_excel("Data/fresh_n_clean_LH_Data.xlsx")
 
 # Create matrix exlcuding sampled tree data (irrelevant)

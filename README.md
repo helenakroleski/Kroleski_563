@@ -31,6 +31,6 @@ LHData <- read_excel("Data/fresh_n_clean_LH_Data.xlsx")
 * Always double-check that you have all needed packages installed and loaded.
 
  ### Direct questions to:
-  Helena Kroleski
-  kroleskh@oregonstate.edu
-  Oregon State University: Forest, Engineering, and Resource Management
+*  Helena Kroleski
+*  kroleskh@oregonstate.edu
+*  Oregon State University: Forest, Engineering, and Resource Management

@@ -30,7 +30,7 @@ LHData <- read_excel("Data/fresh_n_clean_LH_Data.xlsx")
 * Ensure that your variables are named the same as the given code, or it may not work.
 * Always double-check that you have all needed packages installed and loaded.
 
-  ### Direct questions to:
+ ### Direct questions to:
   Helena Kroleski
   kroleskh@oregonstate.edu
   Oregon State University: Forest, Engineering, and Resource Management

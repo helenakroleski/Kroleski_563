@@ -32,14 +32,12 @@ LHData$SoilSev <- factor(LHData$SoilSev,
 # Create boxplot of total seedlings by soil burn severity
 ggplot(LHData, aes(x = SoilSev, y = Seedlings_total, fill = SoilSev)) +
   geom_boxplot() +
-  scale_fill_viridis_d(option = "mako") +  # colorblind-friendly & aesthetic
+  scale_fill_viridis_d(option = "mako") +  # colorblind-friendly
   theme_bw() +
   labs(x = "Soil Burn Severity", 
        y = "Total Seedlings", 
        title = "Seedling Counts by Soil Burn Severity") +
-  theme(
-    legend.position = "none",
-    plot.title = element_text(hjust = 0.5)  # Center title
-  )
+  theme( legend.position = "none",
+    plot.title = element_text(hjust = 0.5))
 
 # ===============================================

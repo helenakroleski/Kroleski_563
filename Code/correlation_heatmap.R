@@ -24,20 +24,19 @@ LHData <- read_excel("Data/fresh_n_clean_LH_Data.xlsx")
 # Create matrix exlcuding sampled tree data (irrelevant)
 LH_num2 <- LHData %>%
   +     dplyr::select(
-    +         -Sampled_DBH_in,
-    +         -Sampled_Height_ft,
-    +         -Sampled_LC_percent,
-    +         -Sampled_BS_ft
-    +     ) %>%
-  +     dplyr::select(where(is.numeric))
+    + -Sampled_DBH_in,
+    + -Sampled_Height_ft,
+    + -Sampled_LC_percent,
+    + -Sampled_BS_ft ) %>%
+  + dplyr::select(where(is.numeric))
 cor_mat2 <- cor(LH_num2, use = "pairwise.complete.obs")
 
 # Plot matrix
 corrplot(cor_mat2,
-             +          method = "color",
-             +          type = "upper",
-             +          tl.cex = 0.65,
-             +          tl.col = "black",
-             +          col = colorRampPalette(c("darkred", "white", "darkblue"))(200))
+ + method = "color",
+ + type = "upper",
+ + tl.cex = 0.65,
+ + tl.col = "black",
+ + col = colorRampPalette(c("darkred", "white", "darkblue"))(200))
 
 # ===============================================
